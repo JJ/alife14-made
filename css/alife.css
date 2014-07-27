@@ -18,7 +18,7 @@ body {
 	width: 900px;
 	height: 600px;
 	font-size: 1em;
-	min-height: 600px;
+/*	min-height: 600px; */
 	background-color: #f1f0ff;
 
 	display: block;
