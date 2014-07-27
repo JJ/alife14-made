@@ -8,7 +8,7 @@
 /** GENERAL **/
 body {
 	font-family: Verdana, sans-serif;
-	min-height: 740px;
+/*	min-height: 740px; */
 	background-color: #8c48bf;
 	-webkit-font-smoothing: antialiased;
 }
