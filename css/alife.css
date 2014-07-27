@@ -9,7 +9,7 @@
 body {
 	font-family: Verdana, sans-serif;
 	min-height: 740px;
-	background-color: #ddd;
+	background-color: #8c48bf;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -18,8 +18,8 @@ body {
 	width: 900px;
 	height: 600px;
 	font-size: 1em;
-	min-height: 500px;
-	background-color: white;
+	min-height: 600px;
+	background-color: #f1f0ff;
 
 	display: block;
 	padding: 40px 60px;
@@ -95,53 +95,12 @@ body {
 	transform:         translateY(0px);
 }
 
-/** NOT SUPPORTED STYLES **/
-.not-supported .step {
-	position: relative;
-	opacity: 1;
-	margin: 20px auto;
-}
-
-/** PRINT STYLE **/
-@media print {
-	body {
-		background: white;
-	}
-	.hint {
-		display: none;
-	}
-	#simple {
-		width: auto; 
-		margin: 0 5%;
-		padding: 0; 
-		border: 0;
-		float: none !important;
-		color: black; 
-		background: transparent;
-	}
-	.step {
-		page-break-after: always;
-		opacity: 1;
-		clear: both;
-		display: block;
-		float: none !important;
-		position: relative;
-		margin: 20px auto;
-
-		-webkit-transition: rotate(0deg);
-		-moz-transition:    rotate(0deg);
-		-ms-transition:     rotate(0deg);
-		-o-transition:      rotate(0deg);
-		transition:         rotate(0deg);
-	}
-	.step:not(.active) {
-		opacity: 1;
-	}
-}
+/* Color combo from http://www.colorcombos.com/color-schemes/14/ColorCombo14.html */
 
 h1 {font-size:4em;    
     font-family: "Montserrat", sans-serif;
-    color: black;}
+    color: #443266;}
+
 h2 {font-size:3em;
     font-family: "Lato", sans-serif;
     color: #47423F;
@@ -192,3 +151,48 @@ p.image {
           background-color:rgba(230,240,250,0.5);
           padding: 5px;
  }
+
+/** NOT SUPPORTED STYLES **/
+.not-supported .step {
+	position: relative;
+	opacity: 1;
+	margin: 20px auto;
+}
+
+/** PRINT STYLE **/
+@media print {
+	body {
+		background: white;
+	}
+	.hint {
+		display: none;
+	}
+	#simple {
+		width: auto; 
+		margin: 0 5%;
+		padding: 0; 
+		border: 0;
+		float: none !important;
+		color: black; 
+		background: transparent;
+	}
+	.step {
+		page-break-after: always;
+		opacity: 1;
+		clear: both;
+		display: block;
+		float: none !important;
+		position: relative;
+		margin: 20px auto;
+
+		-webkit-transition: rotate(0deg);
+		-moz-transition:    rotate(0deg);
+		-ms-transition:     rotate(0deg);
+		-o-transition:      rotate(0deg);
+		transition:         rotate(0deg);
+	}
+	.step:not(.active) {
+		opacity: 1;
+	}
+}
+
