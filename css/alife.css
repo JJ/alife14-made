@@ -108,6 +108,10 @@ h1.img {font-size:5em;
 	background-color: rgba(241,240,255,0.4);;
        }
 
+h1.right { position: absolute;
+	   top:30px;
+	   left:400px}
+
 h2 {font-size:3em;
     font-family: "Lato", sans-serif;
     color: #47423F;
@@ -147,9 +151,7 @@ img.center { width: 90%;
       top:250px;
       z-index: -1}
 
-img.figures { width: 550px;
-      position: absolute;
-      top:150px;
+img.figures { width: 700px;
       z-index: -1}
 
 p.image { 
